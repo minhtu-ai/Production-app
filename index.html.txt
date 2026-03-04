@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Production Tracking</title>
+</head>
+<body>
+  <h2>Nh?p s?n xu?t</h2>
+
+  <input id="product" placeholder="Tên thành ph?m"><br><br>
+  <input id="worker" placeholder="Nhân công"><br><br>
+  <input id="material" placeholder="V?t tu s? d?ng"><br><br>
+  <input id="batch" placeholder="Lô v?t tu"><br><br>
+  <input id="quantity" placeholder="S? lu?ng"><br><br>
+
+  <button onclick="saveData()">Luu</button>
+
+  <h2>Danh sách s?n xu?t</h2>
+  <ul id="list"></ul>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
